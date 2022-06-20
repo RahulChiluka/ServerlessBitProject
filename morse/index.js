@@ -9,7 +9,7 @@ module.exports = async function (context, req) {
         code = "Please enter some text to convert!"
     }
     else {
-        code = morse.textToMorse(english);
+        code = morse.textToMorse(english);//converts to morse here
     }
     context.res = {
         // status: 200, /* Defaults to 200 */
